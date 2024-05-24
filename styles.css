@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(196, 196, 196);
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 460px;
+  height: 491px;
+  background: #ffffff;
+  padding: 30px;
+  gap: 20px;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 100%;
+  border: 1px solid lightgray;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  color: lightgray;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.p3 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  justify-self: center;
+  width: 80%;
+  font-weight: bold;
+}
+
+.score {
+  width: 80%;
+}
+
+.ref {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+.p2 {
+  text-align: right;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+}
+
+form input {
+  width: 30px;
+  height: 30px;
+  display: none;
+}
+form label {
+  display: flex;
+  height: 50px;
+  width: 70px;
+  padding: 10px;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+form input:checked + label {
+  background-color: #ff0099;
+  color: #ffffff;
+}
+
+.check {
+  display: flex;
+  width: 80%;
+  font-size: 15px;
+  font-weight: bold;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.check input {
+  height: 30px;
+  width: 30px;
+}
+
+.line {
+  width: 80%;
+  height: 1px;
+  background-color: lightgray;
+}
+
+.send {
+  width: 80%;
+  cursor: pointer;
+  height: 15%;
+  background-color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: lightgray solid 1px;
+  border-radius: 0.5rem;
+}
